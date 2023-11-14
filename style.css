@@ -1,0 +1,37 @@
+* {
+    border: 2px solid red;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right {
+    display: flex;
+}
+
+.intro {
+    display: flex;
+}
+
+.cards-header {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-container {
+    display: flex;
+    gap: 16px;
+}
+
+.cards-info {
+    display: flex;
+    width: 80px;
+    flex-direction: column;
+}
+
+.cards-text {
+    display: flex;
+    justify-content: center;
+}
