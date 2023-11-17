@@ -5,7 +5,7 @@
 
 .header {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     font-size: 12px;
     width: 600px;
 }
@@ -13,6 +13,12 @@
 .psuedo-dark-background {
     background-color: #1f2937;
     color: #e5e7eb;
+}
+
+.header-container {
+    display: flex;
+    /* width: 600px; */
+    justify-content: center;
 }
 
 button {
@@ -34,7 +40,7 @@ button {
 
 .hero-main-text {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 900;
     color: #f9faf8;
 }
 
@@ -70,7 +76,23 @@ button {
 }
 
 .quote {
-    margin: 100px;
+    /* margin: 100px; */
+    max-width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quote-verbiage {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#quote-signature {
+    display: flex;
+    font-weight: bold;
+    justify-content: end;
 }
 
 .sign-up {
@@ -80,6 +102,12 @@ button {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
     display: flex;
     justify-content: center;
 }
